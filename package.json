@@ -1,0 +1,15 @@
+{
+  "name": "demo-starter",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "tsc && node main.js",
+    "categ": "tsc && node services/categoryService.js",
+      "product": "tsc && node services/productService.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type":"module"
+}
